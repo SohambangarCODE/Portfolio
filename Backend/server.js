@@ -8,6 +8,8 @@ const cors = require('cors');
 
 const contactRoute = require('./routes/contact');
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
