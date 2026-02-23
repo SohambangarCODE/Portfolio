@@ -7,10 +7,9 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const contactRoute = require('./routes/contact');
-
+const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 
-const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
