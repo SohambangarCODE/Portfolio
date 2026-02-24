@@ -18,7 +18,7 @@ const Skills = () => {
       skills: ["Node.js", "Express.js", "MongoDB", "REST API Development", "Authentication"]
     },
     {
-      title: "Tools & DevOps",
+      title: "Tools",
       icon: "🛠️",
       skills: ["Git", "Git Hub", "Vercel", "Render", "Linux", "Postman"]
     }
